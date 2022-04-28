@@ -33,11 +33,12 @@ body, html {
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-card" id="myNavbar">
-    <a href="#home" class="w3-bar-item w3-button w3-wide">LOGO</a>
+    <a href="#home" class="w3-bar-item w3-button w3-wide"><i class="fa fa-home"></i>LOGO</a>
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
       <a href="#about" class="w3-bar-item w3-button">¿qué es?</a>
-      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> Equipo</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-users"></i> Equipo</a>
+      <a href="./login.php" class="w3-bar-item w3-button"><i class="fa fa-user"></i> Inicia Sesión</a>
     </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
@@ -50,8 +51,9 @@ body, html {
 <!-- Sidebar on small screens when clicking the menu icon -->
 <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
-  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">¿qué es?</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button"> Equipo</a>
+  <a href="./login.php" onclick="w3_close()" class="w3-bar-item w3-button"> Inicia Sesión</a>
 </nav>
 
 <!-- Header with full-height image -->
@@ -62,14 +64,6 @@ body, html {
     <span class="w3-large">Registrate para darle uso</span>
     <p><a href="signup.php" class="w3-button w3-black w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Registrarse</a></p>
   </div> 
-  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
-  </div>
 </header>
 
 <!-- About Section -->
