@@ -33,7 +33,10 @@ body, html {
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-card" id="myNavbar">
-    <a href="#home" class="w3-bar-item w3-button w3-wide"><i class="fa fa-home"></i>LOGO</a>
+    <a href="#home" class="w3-bar-item w3-button w3-wide">
+      <i class="fa fa-home"></i><!-- LOGO -->
+      <!-- <img src="images/Logo_MediciApp.png" alt="LogoMediciapp" style="width:4%"> -->
+    </a>
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
       <a href="#about" class="w3-bar-item w3-button">¿qué es?</a>
@@ -68,12 +71,26 @@ body, html {
 
 <!-- About Section -->
 <div class="w3-container" style="padding:128px 16px" id="about">
-  <h3 class="w3-center">Sobre la aplicacion</h3>
-  <div class="w3-row-padding w3-center" style="margin-top:64px">
-    <div class="w3-quarter">
+  <h3 class="w3-center">Sobre 
+    <span style="font-weight: bold">mediciapp</span>
+  </h3>
+  <div class="w3-row-padding w3-center" style="margin-top:auto">
+    <div class="w3-quarter"" >
+      <!--
       <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+      
+      
       <p class="w3-large">Responsabilidad</p>
       <p>atender de manera responsable a todos los usuarios que utilicen nuestro aplicacion web.</p>
+      -->
+      <img src="images/Logo_MediciApp.png" alt="LogoMediciapp" style="width:50%">
+      <p>
+        <span style="font-weight: bold">Mediciapp</span> esta pensado principalmente en que personas con alguna enfermedad crónica, 
+        como es la diabetes o la hipertensión, para tener un control de mediciones de dicha enfermedad. 
+        Tener un control de estos datos ayuda al personal de la salud a decidir cuál es el 
+        tratamiento más adecuado para el paciente y al mismo tiempo tener un control de la 
+        evolución del paciente, para así tener una pronta recuperación.
+      </p>
     </div>
     </div>
   </div>
@@ -96,7 +113,7 @@ body, html {
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card">
-        <img src="images/Abad.jpg" alt="Abad" style="width:100%">
+        <img src="images/abad.jpg" alt="Abad" style="width:100%">
         <div class="w3-container">
           <h3>ABAD VELAZQUEZ FUENTES</h3>
           <p class="w3-opacity">Lic. en ciencias de la computacion</p>
