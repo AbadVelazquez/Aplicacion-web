@@ -34,7 +34,7 @@ body, html {
 <div class="w3-top">
   <div class="w3-bar w3-white w3-card" id="myNavbar">
     <a href="#home" class="w3-bar-item w3-button w3-wide">
-      <i class="fa fa-home"></i><!-- LOGO -->
+      BIENVENIDO
       <!-- <img src="images/Logo_MediciApp.png" alt="LogoMediciapp" style="width:4%"> -->
     </a>
     <!-- Right-sided navbar links -->
